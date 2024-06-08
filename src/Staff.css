@@ -1,0 +1,15 @@
+.staff-container {
+  margin-bottom: 40px;
+}
+
+.staff h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+.staff-card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}

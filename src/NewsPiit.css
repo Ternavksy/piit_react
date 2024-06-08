@@ -1,0 +1,97 @@
+.news-piit-container {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .news-piit-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .news-piit-logo {
+    height: 50px;
+  }
+  
+  .news-piit-nav {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .news-piit-nav a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .news-piit-login {
+    background-color: #e0e0e0;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .news-piit-main {
+    padding: 20px;
+  }
+  
+  .news-piit-main h1 {
+    text-align: center;
+  }
+  
+  .news-piit-add-button {
+    display: block;
+    margin: 0 auto 20px;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    font-size: 24px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .news-piit-article {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .news-piit-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .news-piit-article h2 {
+    margin: 10px 0;
+  }
+  
+  .news-piit-article p {
+    margin: 10px 0;
+  }
+  
+  .news-piit-read-more {
+    color: red;
+    text-decoration: none;
+  }
+  
+  .news-piit-footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #f8f8f8;
+    border-top: 1px solid #ddd;
+  }
+
+  .add-news-button {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+  
+  

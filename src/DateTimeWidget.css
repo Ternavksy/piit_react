@@ -1,0 +1,30 @@
+/* src/DateTimeWidget.css */
+.date-time-widget {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .date {
+    background-color: #ff5c5c;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px 5px 0 0;
+    font-size: 1em;
+    font-weight: bold;
+    width: 100px;
+    text-align: center;
+  }
+  
+  .time {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 0 0 5px 5px;
+    font-size: 1.2em;
+    width: 78px;
+    text-align: center;
+    border: 1px solid #ff5c5c;
+    border-top: none;
+  }
+  

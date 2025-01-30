@@ -1,0 +1,121 @@
+.dashboard {
+    display: flex;
+    flex-direction: column; /* Располагаем элементы вертикально */
+    justify-content: center; /* Центрируем по вертикали */
+    align-items: center; /* Центрируем по горизонтали */
+    min-height: 10vh; /* Высота равна высоте экрана */
+    background-color: #f8f9fa; /* Фон для разделения от Sidebar */
+}
+
+.title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #34495e;
+    text-align: center;
+    margin-left: 300px;
+}
+
+.stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-left: 300px; /* Добавляем отступ вправо */
+}
+
+.statCard {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.2s;
+    /* Убрали box-shadow */
+}
+
+.statCard:hover {
+    transform: translateY(-5px);
+    /* Убрали box-shadow */
+}
+
+.statCard h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #3498db;
+}
+
+.value {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.description {
+    font-size: 0.9rem;
+    color: #7f8c8d;
+}
+
+.chart {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    margin-left: 300px; /* Добавляем отступ вправо */
+    width: 1250px;
+    /* Убрали box-shadow */
+}
+
+.fakeChart {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ecf0f1;
+    border-radius: 8px;
+    margin-top: 20px;
+    color: #95a5a6;
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.attractionList {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+    color: #34495e;
+    font-size: 1rem;
+}
+
+.attractionItem {
+    margin-bottom: 15px;
+    padding: 10px 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.progressBarContainer {
+    width: 100%;
+    height: 10px;
+    background-color: #ecf0f1;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+.progressBar {
+    height: 100%;
+    background-color: #3498db;
+    transition: width 0.3s ease-in-out;
+}
+
+.chart h3 {
+    margin-top: 10px; /* Убираем лишний отступ сверху */
+    margin-bottom: 10px; /* Оставляем минимальный отступ снизу */
+    color: #2c3e50;
+    font-size: 1.5rem;
+}
+
